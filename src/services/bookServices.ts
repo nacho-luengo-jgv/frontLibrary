@@ -1,8 +1,8 @@
 import axios from "axios";
 import type { Book } from "../types/Books.ts";
 
-export const url_api_usuario = "/usuarios";
-export const url_api_admin = "/admin";
+export const url_api_usuario = "http://192.168.1.154:8080/user";
+export const url_api_admin = "http://192.168.1.154:8080/admin";
 
 export const credencialesAdmin = {
   username: "admin",
